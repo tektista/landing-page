@@ -22,8 +22,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  justify-content: space-between;
-
+  gap: 115px;
   width: 1000px;
 }
 
@@ -56,26 +55,35 @@ body {
 .one-content-and-image {
   display: flex;
   justify-content: space-between;
-  
-  
 }
 
 .one-content {
   display: flex;
   flex-direction: column;
   width: 350px;
+  gap: 10px;
 
   background-color: #1f2937;
 }
 
 .one-content-title {
-    font-size: 48px;
-    color: #f9faf8;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: extra;
 }
 
 .one-content-info {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
 }
 
 .image {
