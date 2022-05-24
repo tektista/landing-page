@@ -203,3 +203,33 @@ footer .inner-column {
   border: 3px solid #3882f6;
   border-radius: 15px;
 }
+
+/* SECTION THREE*/
+.random-section {
+  background-color: #E5E7EB;
+}
+
+ #column-flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  gap: 20px;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quotee-container {
+  display: flex;
+  flex-direction: row-reverse;
+
+  font-style: normal;
+}
