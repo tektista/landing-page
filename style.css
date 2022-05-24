@@ -1,7 +1,6 @@
 @import "meyer-reset.css";
 /* SET UP sitewide */
 
-
 html {
   --blue: #1f2937;
 }
@@ -60,8 +59,6 @@ main {
   padding-top: 10vh;
   padding-bottom: 10vh;
 
-
-
   /*INNER COLUMN is not as big as whole screen  */
 
   width: 98%;
@@ -70,10 +67,10 @@ main {
   margin-right: auto;
 }
 
-header .inner-column, footer .inner-column {
+header .inner-column,
+footer .inner-column {
   padding: 10px;
 }
-
 
 /* TYPOGRAPHY */
 
@@ -86,7 +83,6 @@ header .inner-column, footer .inner-column {
 .calm-voice {
   font-size: 18px;
   line-height: 1.3;
- 
 }
 
 /* RESPONSIVENESS */
@@ -140,7 +136,8 @@ header .inner-column, footer .inner-column {
   background-color: #1f2937;
 }
 
-.loud-voice, .calm-voice {
+.loud-voice,
+.calm-voice {
   color: #f9faf8;
   font-family: Roboto;
 }
@@ -148,18 +145,61 @@ header .inner-column, footer .inner-column {
 .button {
   display: inline-block;
   color: #f9faf8;
-  background-color: #3882F6;
+  background-color: #3882f6;
   width: 100px;
   font-family: Roboto;
   font-size: 15px;
- 
-  
 }
-
 
 * {
   border: 4px solid blue;
   padding: 4px;
 }
 
+/* SECTION TWO */
 
+.random {
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  align-items: center;
+  gap: 50px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+
+  gap: 10px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+}
