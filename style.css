@@ -233,3 +233,33 @@ footer .inner-column {
 
   font-style: normal;
 }
+
+/* SECTION FOUR */
+
+#dc {
+  height: 150px;
+  background-color: #3882f6;
+  border-radius: 15px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#b {
+  border: 2px solid white;
+}
+
+
+.ctat, .ctap {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  color: white;
+}
+
+.ctap {
+  font-weight: 100;
+}
+
+
+
